@@ -2,6 +2,8 @@
 
 ## Overview of Analysis
 
+Via use of machine learning and neural networks, use the featueres in the dataset to create a binary classifer that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.  This will be accomplished by preprocessing data for a neural network model, compiling, training, and evaluating the model, and optimizing the model.
+
 ## Results of Analysis
 
 ### Data Preprocessing
