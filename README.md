@@ -6,6 +6,14 @@ Via use of machine learning and neural networks, use the featueres in the datase
 
 ## Results of Analysis
 
+[AlphabetSoupCharity.ipynb](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb)
+
+[AlphabetSoupCharity.h5](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5)
+
+[AlphabetSoupCharity_Optimization.ipynb](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity-Optimization.ipynb)
+
+[AlphabetSoupCharity_Optimization.h5](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.h5)
+
 ### Data Preprocessing
 
 - What variable(s) are considered the target for the model?
@@ -33,22 +41,22 @@ Via use of machine learning and neural networks, use the featueres in the datase
 - What steps were taken to try to increase model performance?
 
     First step was to apply the bucketing feature to the ASK_AMT data to condense into 6 unique values based on a rnage of ask amounts.  The accuracy achieve was 72.4%.
+   
+    ![Test1.1](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/Resources/Test1_Variable_Removed.png)!
     
-    ![Test1.1]()!
+    ![Test1.2](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/Resources/Test1_Ask_Amount1.png)!
     
-    ![Test1.2]()!
-    
-    ![Test1.3]()!
-    
+    ![Test1.3](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/Resources/Test1_Ask_Amount2.png)!
+        
     Second step was to add a third layer with 10 neurons.  The accuracy achieve was 72.82%.
     
-    ![Test2.1]()!
+    ![Test2.1](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/Resources/Test2_layer.png)!
     
     Third step was to increase the number of epochs to the training regimen.  The accuracy achieve was 72.77%.
     
-    ![Test2.1]()!
+    ![Test3.1](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/Resources/Test3_activation.png)!
     
-    ![Test2.2]()!
+    ![Test3.2](https://github.com/nkinsler/Neural_Network_Charity_Analysis/blob/main/Resources/Test3_epochs.png)!
 
 ## Summary of Analysis
 
